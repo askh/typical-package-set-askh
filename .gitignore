@@ -1,0 +1,6 @@
+*~
+/debian/.debhelper/generated/typical-package-set-askh/installed-by-dh_installdocs
+/debian/debhelper-build-stamp
+/debian/files
+/debian/typical-package-set-askh.substvars
+/debian/typical-package-set-askh/

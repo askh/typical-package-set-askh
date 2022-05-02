@@ -2,15 +2,15 @@ Source: typical-package-set-askh
 Section: metapackages
 Priority: optional
 Maintainer: Alexander Kharitonov <askh@askh.ru>
-Build-Depends: debhelper-compat (>= 13)
+Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.5.1
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Browser: https://salsa.debian.org/debian/typical-package-set-askh
-#Vcs-Git: https://salsa.debian.org/debian/typical-package-set-askh.git
+Homepage: https://github.com/askh/typical-package-set-askh
+#Vcs-Browser: https://github.com/askh/typical-package-set-askh
+Vcs-Git: https://github.com/askh/typical-package-set-askh.git
 Rules-Requires-Root: no
 
 Package: typical-package-set-askh
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends} acl arping attr aptitude autoconf automake autotools-dev bridge-utils bsdmainutils build-essential certbot cifs-utils cmake conntrack cryfs curl debhelper docker docker-compose dh-make emacs ffmpeg g++ gcc gdb gettext git ipset libsqlite3-dev lynx m4 make mc needrestart nfs-common nmap openssh-client openssh-server p7zip pkg-config pv python3 python3-pip rdiff-backup screen sqlite3 smbclient tcpdump tcpflow tcptraceroute unattended-upgrades vim wget whois zip
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, acl, arping, attr, aptitude, autoconf, automake, autotools-dev, bridge-utils, bsdmainutils, build-essential, certbot, cifs-utils, cmake, conntrack, cryfs, curl, debhelper, docker, docker-compose, dh-make, emacs, ffmpeg, g++, gcc, gdb, gettext, git, ipset, libsqlite3-dev, lynx, m4, make, mc, needrestart, nfs-common, nmap, openssh-client, openssh-server, p7zip, pkg-config, pv, python3, python3-pip, rdiff-backup, screen, sqlite3, smbclient, tcpdump, tcpflow, tcptraceroute, unattended-upgrades, vim, wget, whois, zip
 Description: A typical set of packages that are usually required
-This metapackage will install typical set of packages that are usually required (some utils and development tools).
+ This metapackage will install typical set of packages that are usually required (some utils and development tools).
